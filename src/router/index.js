@@ -1,33 +1,29 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Template from '@/components/Template'
-import ElementTable from '@/components/ElementTable'
-import DetailInfo from '@/components/DetailInfo'
+import Template from '../components/Template'
+import WhiteUid from '../components/WhiteUid'
+
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: '首页',
+      name: '看点业务诊断',
       component: Template
     },
     {
       path: '/user',
-      name: '用户管理',
-      component: ElementTable,
+      name: '白名单管理',
+      component: WhiteUid,
     },
-    // {
-    //     path: '/userInfo/:id',
-    //     name: '用户详情页',
-    //     component: DetailInfo
-    // },
+
     {
-      path: '/psd',
-      name: '密码管理',
+      path: '/config',
+      name: '业务配置管理',
       component: Template
     },
-    {
+    /*{
       path: '/salary',
       name: '工资管理',
       component: Template
@@ -46,12 +42,17 @@ export default new Router({
       path: '/admin',
       name: '系统管理',
       component: Template
-    },
+    },*/
     {
       path: '/feedback',
       name: '意见反馈',
       component: Template
     },
+    // {
+    //     path: '/userInfo/:id',
+    //     name: '用户详情页',
+    //     component: DetailInfo
+    // },
     {
       path: '*',
       redirect: '/'

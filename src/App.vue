@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="app-header">
-      <div class="title">看点中台白板系统</div>
+      <div class="title">看点中台管理平台</div>
     </div>
     <div class="app-content">
       <div class="app-nav">
@@ -131,8 +131,8 @@
       color: #fff;
       flex: 0 0 60px;
       background: #324057;
-      height: 60px;
-      line-height: 60px;
+      height: 80px;
+      line-height: 80px;
       padding: 0 20px;
 
       .title {
@@ -147,7 +147,7 @@
       flex-flow: row;
 
       .app-nav {
-        flex: 0 0 300px;
+        flex: 0 0 250px;/*调整左右比例*/
         background: #eff2f7;
       }
 

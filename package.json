@@ -10,8 +10,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "element-ui": "^1.4.6",
-    "vue": "^2.4.2",
+    "element-ui": "^2.12.0",
+    "vue": "^2.6.11",
     "vue-router": "^2.7.0",
     "vue-router-tab": "^0.2.9"
   },
@@ -43,12 +43,13 @@
     "sass-loader": "^6.0.6",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
+    "style-loader": "^1.1.1",
     "url-loader": "^0.5.8",
     "vue-loader": "^13.0.4",
     "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "^2.4.2",
+    "vue-template-compiler": "^2.6.11",
     "vuex": "^3.0.0",
-    "webpack": "^3.6.0",
+    "webpack": "^3.12.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-middleware": "^1.12.0",
     "webpack-hot-middleware": "^2.18.2",
