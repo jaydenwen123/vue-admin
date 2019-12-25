@@ -17,11 +17,11 @@ export default new Router({
       name: '用户管理',
       component: ElementTable,
     },
-    {
-        path: '/userInfo/:id',
-        name: '用户详情页',
-        component: DetailInfo
-    },
+    // {
+    //     path: '/userInfo/:id',
+    //     name: '用户详情页',
+    //     component: DetailInfo
+    // },
     {
       path: '/psd',
       name: '密码管理',

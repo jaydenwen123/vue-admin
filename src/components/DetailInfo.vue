@@ -15,14 +15,15 @@
             };
         },
         components: {},
+        props:["userInfo"],
         mounted() {
         },
         methods: {},
-        computed: {
-            userInfo () {
-                return this.$store.state.userInfo;
-            }
-        },
+        // computed: {
+        //     userInfo () {
+        //         return this.$store.state.userInfo;
+        //     }
+        // },
         watch: {}
     };
 </script>

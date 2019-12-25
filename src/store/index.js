@@ -11,7 +11,8 @@ const store = new Vuex.Store({
   state: {
       options: [],
       activeIndex: '/user',
-      userInfo: {}
+      userInfo: {},
+      userInfos:[],
   },
   mutations: {
     // 添加tabs
@@ -36,6 +37,7 @@ const store = new Vuex.Store({
     // 设置详情信息
     save_detail_info (state, info) {
       this.state.userInfo = info;
+      this.state.userInfos.push(info);
     }
   }
 });
